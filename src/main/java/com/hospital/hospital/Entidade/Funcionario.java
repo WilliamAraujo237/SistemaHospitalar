@@ -2,6 +2,9 @@ package com.hospital.hospital.Entidade;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 public class Funcionario {
     @Id
@@ -17,6 +20,15 @@ public class Funcionario {
     @JoinColumn(name = "Codigo_Cargo",referencedColumnName = "Id")
     private Cargo cargo;
 
+/*
+
+    //Mapeamento de entidade com a tabela  pacientes
+
+    @OneToMany(mappedBy = "pacientes")
+    private List<Paciente> pacientes = new ArrayList<>();
+
+
+ */
 
     //Construtor Vazio
     public Funcionario() {

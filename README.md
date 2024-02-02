@@ -1,5 +1,5 @@
 # APIREST Hospital
-O código desenvolvido neste projeto, trata-se de uma API REST para o controle de contratações e demissão de funcionários, mas também possui funcionalidades para registro de pacientes/clientes. O projeto em questão conta com Breakpoints que podem ser utilizados pela instituição para efetuar todo o processo de crud através de requisições HTTP
+Este projeto envolve o desenvolvimento de uma API REST focada na gestão de contratações e demissões de colaboradores, além de incluir recursos para o cadastro de pacientes ou clientes. A solução oferece Breakpoints que permitem à instituição realizar todas as operações de CRUD (Criar, Ler, Atualizar, Deletar) por meio de requisições HTTP. Para a implementação, foi escolhido o uso da linguagem Java, empregando o framework Spring e o sistema de build 
 ### Projeto tipo:
 Maven
 ### Linguagem:
